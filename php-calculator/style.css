@@ -1,0 +1,47 @@
+*{
+	font-family: sans-serif;
+}
+
+.formContainer {
+	width: 40%;
+	height:500px;
+	border: 2px solid #18b9d0;
+	padding:10px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+.date {
+	text-align: center;
+	line-height: 25px;
+}
+.radios{
+	width:100%;
+	text-align: center;
+}
+
+.button {
+	background-color: #1b73c5;
+	border-color:#1b73c5;
+	border:0;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 15px;
+	width:100px;
+}
+#shape1{
+	margin-right: 20px;
+
+}
+#shape3{
+	margin-left:20px;
+}
+.input{
+	margin-top:20px;
+	margin-bottom: 10px;
+
+}
+.phpinput{
+	line-height: 50px;
+}

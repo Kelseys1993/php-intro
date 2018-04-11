@@ -40,36 +40,36 @@
 // associative array, uses key and values
 
 
-// $student = array(
-// 	array(
-// 		"name" => "John",
-// 		"mod1" => 76,
-// 		"mod2" => 55,
-// 		"mod3" => 70,
-// 		"mod4" => 72
-// 		),
-// 	array(
-// 		"name" => "Smith",
-// 		"mod1" => 88,
-// 		"mod2" => 78,
-// 		"mod3" => 84,
-// 		"mod4" => 80
-// 		),
-// 	);
+$student = array(
+	array(
+		"name" => "John",
+		"mod1" => 76,
+		"mod2" => 55,
+		"mod3" => 70,
+		"mod4" => 72
+		),
+	array(
+		"name" => "Smith",
+		"mod1" => 88,
+		"mod2" => 78,
+		"mod3" => 84,
+		"mod4" => 80
+		),
+	);
 
 
-// foreach ($student as $stud){
-// 	 	echo "Student: " . $stud[name];
-// 	    echo "<br>";
-// 	    echo "Module 1: " . $stud[mod1];
-// 	    echo "<br>";
-// 	    echo "Module 2: " . $stud[mod2];
-// 	    echo "<br>";
-// 	    echo "Module 3: " . $stud[mod3];
-// 	    echo "<br>";
-// 	    echo "Module 4: " . $stud[mod4];
-// 	  	echo "<p>";
-// 	}
+foreach ($student as $stud){
+	 	echo "Student: " . $stud[name];
+	    echo "<br>";
+	    echo "Module 1: " . $stud[mod1];
+	    echo "<br>";
+	    echo "Module 2: " . $stud[mod2];
+	    echo "<br>";
+	    echo "Module 3: " . $stud[mod3];
+	    echo "<br>";
+	    echo "Module 4: " . $stud[mod4];
+	  	echo "<p>";
+	}
 
 
 // $i = 1;
@@ -97,47 +97,8 @@
 // 	}
 // }
 
-// $currentdate = date("g:i:s");
-// $d = strtotime("11:59am");
-// $morn = strtotime("5:00am");
-// $even = strtotime("5:00pm");
-// $night = strtotime("11:59pm");
-// echo $currentdate;
-// echo "<br>";
-// if ($currentdate >= date("h:i a", $morn) &&  $currentdate <= date("h:i a", $d) ) {
-// 	echo "Good Morning";
-// } else if ($currentdate > date("h:i a" ,$d) && $currentdate <= date("h:i a" ,$even) ) {
-// 	echo "Good Afternoon";
-// } else ($currentdate  > date("h:i a" ,$even) && $currentdate < date("h:i a" ,$night) ) {
-// 	echo "Good Evening";
-// }else {
-// 	echo "Good Night";
-// }
-date_default_timezone_set('Etc/GMT+12');
-$year = date("Y") ;
-echo $year;
-echo "<br>";
-$hour = date("H");
-$currenttime = date("H:i:s A");
-echo $currenttime;
-echo "<br>";
 
 
-if ($hour < 12) {
-    echo "Good Morning";
-}else if ($hour >= 12 && $hour < 17){
-    echo "Good Afternoon";
-}else if ($hour >=17 && $hour < 24) {
-    echo "Good Evening";
-} else {
-	echo "Good Night";
-}
-echo "<br>";
-if($year % 400 == 0) {
-	echo "This Year is a leap year";
-} else {
-	echo "This Year is not a leap year";
-}
 
 ?>
 
