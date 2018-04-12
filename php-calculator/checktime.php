@@ -24,22 +24,22 @@
 // } else {
 // 	echo "This Year is not a leap year";
 // }
-			date_default_timezone_set('Pacific/Auckland');
-			$hour = date("H");
-			$currenttime = date("H:i:s A, D jS F y ");
-			echo "It is $currenttime";
-			echo "<br>";
+date_default_timezone_set('Pacific/Auckland');
+$hour = date("H");
+$currenttime = date("H:i:s A, D jS F y ");
+echo "It is $currenttime";
+echo "<br>";
 
 
-			if ($hour < 12) {
-			    echo "Good Morning :)";
-			}else if ($hour >= 12 && $hour < 17){
-			    echo "Good Afternoon :)";
-			}else if ($hour >=17 && $hour < 24) {
-			    echo "Good Evening :)";
-			} else {
-				echo "Good Night :)";
-			}
+if ($hour < 12) {
+    echo "Good Morning :)";
+}else if ($hour >= 12 && $hour < 17){
+    echo "Good Afternoon :)";
+}else if ($hour >=17 && $hour < 24) {
+    echo "Good Evening :)";
+} else {
+	echo "Good Night :)";
+}
 
 	
 

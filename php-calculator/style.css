@@ -4,7 +4,7 @@
 
 .formContainer {
 	width: 40%;
-	height:500px;
+	height:80%;
 	border: 2px solid #18b9d0;
 	padding:10px;
 	margin: 0 auto;
@@ -43,5 +43,8 @@ h1 {
 
 }
 .phpinput{
-	line-height: 50px;
+	line-height: 30px;
+}
+.shape {
+	background-color: #1b73c5;
 }

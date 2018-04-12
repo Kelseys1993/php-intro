@@ -2,10 +2,9 @@ $(document).ready(function() {
 
 	$("#shape1").on("click", function(e){
 		  e.preventDefault();
-		  apc_clear_cache();
-			$("#rectangleForm").hide();
-			$("#squareForm").hide();
-			$("#circleForm").show();
+		$("#rectangleForm").hide();
+		$("#squareForm").hide();
+		$("#circleForm").show();
 	
 	})
 
@@ -24,14 +23,5 @@ $(document).ready(function() {
 		$("#rectangleForm").show();
 		
 		})
-
-
-// 	$("#submit").submit(function(e) {
-// 		 window.location.reload(false); 
-//     $("#circleForm").css("display", "block");
-   
-   
-// })
-
 
 	});
